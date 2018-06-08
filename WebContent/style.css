@@ -1,0 +1,112 @@
+#form1{
+display: block;
+padding-left: auto;
+padding-top: auto;
+color:white;
+
+}
+.form{
+	position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  font-family: NeonStream;
+background-color: rgba(0, 0, 0,0.2 ); 	
+}
+table{
+	width: auto;
+    height: auto;
+    margin: 15% auto;
+    position: relative;
+    background-color: rgba(0, 0, 0,0.2 ); 
+
+}
+.tab{
+	padding: 30px 30px;
+	background-image: url("space.jpg");
+}
+td{
+	color: #fff;
+	font-family: 'VT323', monospace;
+	font-size: 25px;
+}
+input{
+	background-color: rgba(86, 85, 192 ,0.2 );
+	font-family: 'VT323', monospace;
+}
+.text{
+	color: white;
+}
+a{
+	color: #fff;
+	text-shadow: 0 0 10px #212F3C  , 0 0 15px #212F3C  , 0 0 25px #212F3C  , 0 0 20px #5D6D7E  , 0 0 30px #AEB6BF  , 0 0 40px #AEB6BF  , 0 0 50px #AEB6BF  , 0 0 75px #AEB6BF  ;
+	padding-right: 10px;
+}
+#button{
+	background-color: #D8D8D8;
+	font-family: 'VT323', monospace;
+}
+.header{
+	display : block;
+	background-color: rgba(  0, 52, 110 ,0.8);
+	}
+.headernew{
+	background-color: rgba(  102, 204, 255 ,0.8);
+}
+	ul li{
+	display:inline-block;
+	list-style-type: none;}
+.reg{
+	position: relative;
+	margin-left: 40%;
+}
+	h1{
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:40px;	
+	font-family: 'VT323', monospace;
+	
+	}
+	.floatright{
+	float: right;
+	}
+	#hyper{
+	display: inline-block;
+	margin-top: 20%;
+	font-size: 40px;
+	padding: 20px 20px;
+	background-color: rgba(23, 32, 42,0.5);
+	
+	}
+	a:hover{
+	color:#fff;
+	text-shadow: 0 0 5px #F7DC6F  , 0 0 10px #F7DC6F  , 0 0 15px #F7DC6F  , 0 0 20px #F9E79F  , 0 0 30px #F9E79F  , 0 0 40px #FCF3CF , 0 0 50px #FCF3CF  , 0 0 75px #FCF3CF  ;
+	}
+	a:visited{
+	color:#fff;
+	text-shadow: 0 0 5px #00D5DD  , 0 0 10px #00D5DD  , 0 0 15px #00D5DD  , 0 0 20px #74E1E5  , 0 0 30px #74E1E5  , 0 0 40px #74E1E5  , 0 0 50px #74E1E5  , 0 0 75px #74E1E5  ;
+	}
+	a:active{
+	color:#fff;
+	text-shadow: 0 0 5px #212F3C  , 0 0 10px #212F3C  , 0 0 15px #212F3C  , 0 0 20px #5D6D7E  , 0 0 30px #AEB6BF  , 0 0 40px #AEB6BF  , 0 0 50px #AEB6BF  , 0 0 75px #AEB6BF  ;
+	}
+	input{
+	color:white;}
+	.footer{
+	position: relative;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	}
+body{
+	color: #fff;
+	font-family: 'VT323', monospace;
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-size:100%;
+    background-repeat:no-repeat;
+	text-shadow: 0 0 5px #01007C, 0 0 10px #01007C, 0 0 15px #01007C, 0 0 20px #5655C0, 0 0 30px #5655C0, 0 0 40px #5655C0, 0 0 50px #5655C0, 0 0 75px #5655C0;
+	background-image:url("space.jpg");
+}

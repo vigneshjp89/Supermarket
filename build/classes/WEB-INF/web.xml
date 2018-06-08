@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Supermarket</display-name>
+  
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>simple web resource</web-resource-name>
+      <url-pattern>/register.jsp</url-pattern>
+      <url-pattern>/SelectView.jsp</url-pattern>
+      <url-pattern>/login</url-pattern>
+      <url-pattern>/date.jsp</url-pattern>
+      <url-pattern>/area.jsp</url-pattern>
+      <url-pattern>/allCustBill.jsp</url-pattern>
+      <url-pattern>/updateInven.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>employee</role-name>
+    </auth-constraint>
+  </security-constraint>
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/authentication.html</form-login-page>
+      <form-error-page>/authenticationerror.html</form-error-page>
+    </form-login-config>
+  </login-config>
+  <servlet>
+    <servlet-name>checkuser</servlet-name>
+    <servlet-class>com.Supermarket.src.checkUser</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkuser</servlet-name>
+    <url-pattern>/checkuser.do</url-pattern>
+  </servlet-mapping>
+</web-app>
